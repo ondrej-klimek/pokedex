@@ -1,15 +1,18 @@
 import {Link} from "react-router-dom";
 
-const response = await fetch("https://pokeapi.co/api/v2/pokemon-form/10027/")
-if (!response.ok) throw new Error("Unable to load image")
-let unownQmark = await response.json()
+export default async function FrontPage() {
 
-export default function FrontPage() {
+    const response = await fetch("https://pokeapi.co/api/v2/pokemon-form/10027/")
+    if (!response.ok) throw new Error("Unable to load image")
+    let unownQmark = await response.json()
+
     return (
         <>
             <text>Take me to...</text>
-            <MyBtn destination={"/pokedex"} imageSrc={"../../public/pikaSil.png"} text={"Pokedex"} imgAlt={"Pikachu silhouette"}/>
-            <MyBtn destination={"/about"} imageSrc={unownQmark.sprites.front_default} text={"About me"} imgAlt={"Unown ?"}/>
+            <MyBtn destination={"/pokedex"} imageSrc={"../../public/pikaSil.png"} text={"Pokedex"}
+                   imgAlt={"Pikachu silhouette"}/>
+            <MyBtn destination={"/about"} imageSrc={unownQmark.sprites.front_default} text={"About me"}
+                   imgAlt={"Unown ?"}/>
         </>
     )
 }
