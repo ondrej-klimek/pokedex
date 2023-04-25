@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.js": "/pokedex/static/js/main.4cd9ae94.js",
+    "main.js": "/pokedex/static/js/main.53907ea8.js",
     "static/media/ripple-loader.gif": "/pokedex/static/media/ripple-loader.f1ad8e8883a2156611aa.gif",
     "index.html": "/pokedex/index.html",
-    "main.4cd9ae94.js.map": "/pokedex/static/js/main.4cd9ae94.js.map"
+    "main.53907ea8.js.map": "/pokedex/static/js/main.53907ea8.js.map"
   },
   "entrypoints": [
-    "static/js/main.4cd9ae94.js"
+    "static/js/main.53907ea8.js"
   ]
 }
