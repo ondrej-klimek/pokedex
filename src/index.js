@@ -2,10 +2,9 @@ import React from "react"
 import ReactDOM from "react-dom/client"
 import Root from "./routes/Root"
 import FrontPage from "./routes/FrontPage"
-import Pokedex from "./routes/Pokedex"
-import About from "./routes/About"
+import {Pokedex} from "./routes/Pokedex"
+import {About} from "./routes/About"
 import { RouterProvider, createHashRouter } from "react-router-dom"
-import * as path from "path";
 
 const router = createHashRouter([
     {

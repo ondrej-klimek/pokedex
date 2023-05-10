@@ -1,0 +1,15 @@
+nav {
+    margin: -0.5rem 0 1rem -0.5rem;
+    height: 2rem;
+    width: 100%;
+    background-color: #2f2f2f;
+    /*color: #bfbfbf;*/
+    padding-top: .5rem;
+    padding-left: 1rem;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+}
+
+.navBarBtn {
+    color: #bfbfbf;
+    margin: 1rem;
+}

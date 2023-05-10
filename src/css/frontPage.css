@@ -1,0 +1,45 @@
+.welcomeDiv {
+
+    justify-content: center;
+}
+
+.welcomeTxt {
+    position: relative;
+}
+.welcomeTxt::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    animation-name: animate-text;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+
+.navButtons {
+    opacity: 0;
+    animation-name: nav-btns;
+    animation-delay: 1.2s;
+    animation-duration: 400ms;
+    animation-fill-mode: forwards;
+}
+
+@keyframes animate-text {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes nav-btns {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

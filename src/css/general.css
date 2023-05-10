@@ -1,0 +1,14 @@
+.invisible {
+    display: none !important;
+}
+.dismissButton {
+    height: 1rem;
+    width: 1rem;
+    border-radius: 5px;
+    border: solid 1px black;
+
+    justify-content: center;
+}
+.dismissButton:hover {
+    cursor: pointer;
+}
